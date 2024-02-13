@@ -591,7 +591,9 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
                           pipelineLayout, 0, 1, &descriptorSets[currentFrame],
                           0, nullptr);
 
-  vkCmdDraw(commandBuffer, 8, 1, 0, 0);
+  vkCmdDraw(commandBuffer, 2, 1, 0, 0);
+  vkCmdDraw(commandBuffer, 2, 1, 2, 0);
+  vkCmdDraw(commandBuffer, 8, 1, 4, 0);
   vkCmdEndRenderPass(commandBuffer);
   VK_CHECK(vkEndCommandBuffer(commandBuffer));
 }
@@ -1139,7 +1141,7 @@ void HelloVK::createGraphicsPipeline() {
   VkPipelineInputAssemblyStateCreateInfo inputAssembly{};
   inputAssembly.sType =
       VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO;
-  inputAssembly.topology = VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST;
+  inputAssembly.topology = VK_PRIMITIVE_TOPOLOGY_LINE_STRIP;
   inputAssembly.primitiveRestartEnable = VK_FALSE;
 
   VkPipelineViewportStateCreateInfo viewportState{};
