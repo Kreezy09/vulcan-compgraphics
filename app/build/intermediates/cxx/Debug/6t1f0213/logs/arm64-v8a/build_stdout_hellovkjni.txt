@@ -1,2 +1,3 @@
 ninja: Entering directory `/home/keith/AndroidStudioProjects/Polygon/app/.cxx/Debug/6t1f0213/arm64-v8a'
-ninja: no work to do.
+[1/2] Building CXX object CMakeFiles/hellovkjni.dir/vk_main.cpp.o
+[2/2] Linking CXX shared library /home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so
