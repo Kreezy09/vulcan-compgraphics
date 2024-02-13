@@ -1,0 +1,4 @@
+/home/keith/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /home/keith/AndroidStudioProjects/Polygon/app/.cxx/Debug/6t1f0213/arm64-v8a \
+  hellovkjni
