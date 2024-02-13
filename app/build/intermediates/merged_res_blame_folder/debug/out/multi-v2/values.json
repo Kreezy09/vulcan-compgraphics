@@ -40,6 +40,25 @@
                     }
                 },
                 {
+                    "source": "/home/keith/AndroidStudioProjects/Polygon/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "315"
+                    },
+                    "to": {
+                        "startLines": "313",
+                        "startColumns": "4",
+                        "startOffsets": "20517",
+                        "endLines": "316",
+                        "endColumns": "12",
+                        "endOffsets": "20732"
+                    }
+                },
+                {
                     "source": "/home/keith/.gradle/caches/transforms-3/0872acff0c46ce74eaa1eaaba27b0ebe/transformed/lifecycle-runtime-2.5.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -57,22 +76,20 @@
                     }
                 },
                 {
-                    "source": "/home/keith/AndroidStudioProjects/Rectangle/app/src/main/res/values/themes.xml",
+                    "source": "/home/keith/AndroidStudioProjects/Polygon/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "25",
                         "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "315"
+                        "startOffsets": "859",
+                        "endColumns": "52",
+                        "endOffsets": "907"
                     },
                     "to": {
-                        "startLines": "313",
+                        "startLines": "305",
                         "startColumns": "4",
-                        "startOffsets": "20517",
-                        "endLines": "316",
-                        "endColumns": "12",
-                        "endOffsets": "20732"
+                        "startOffsets": "19898",
+                        "endColumns": "52",
+                        "endOffsets": "19946"
                     }
                 },
                 {
@@ -181,23 +198,6 @@
                         "startOffsets": "16897",
                         "endColumns": "59",
                         "endOffsets": "16952"
-                    }
-                },
-                {
-                    "source": "/home/keith/AndroidStudioProjects/Rectangle/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "859",
-                        "endColumns": "52",
-                        "endOffsets": "907"
-                    },
-                    "to": {
-                        "startLines": "305",
-                        "startColumns": "4",
-                        "startOffsets": "19898",
-                        "endColumns": "52",
-                        "endOffsets": "19946"
                     }
                 }
             ]

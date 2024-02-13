@@ -18,37 +18,37 @@
 13-->[androidx.core:core:1.10.1] /home/keith/.gradle/caches/transforms-3/d001c43b87f49a29f46bbdd20bd4ce3a/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 14
 15    <application
-15-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:4:3-17:17
+15-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:4:3-17:17
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.10.1] /home/keith/.gradle/caches/transforms-3/d001c43b87f49a29f46bbdd20bd4ce3a/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
-19-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:5:7-41
+19-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:5:7-41
 20        android:label="@string/hellovk_activity"
-20-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:6:7-47
+20-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:6:7-47
 21        android:testOnly="true" >
 22        <activity
-22-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:7:5-16:16
+22-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:7:5-16:16
 23            android:name="com.android.hellovk.VulkanActivity"
-23-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:7:15-44
+23-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:7:15-44
 24            android:configChanges="orientation|screenSize|keyboardHidden"
-24-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:11:15-76
+24-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:11:15-76
 25            android:exported="true"
-25-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:10:15-38
+25-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:10:15-38
 26            android:launchMode="singleTask"
-26-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:9:15-46
+26-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:9:15-46
 27            android:theme="@style/Application.Fullscreen" >
-27-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:8:15-60
+27-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:8:15-60
 28            <intent-filter>
-28-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:12:7-15:23
+28-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:12:7-15:23
 29                <action android:name="android.intent.action.MAIN" />
-29-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:13:9-61
-29-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:13:17-58
+29-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:13:9-61
+29-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:13:17-58
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:14:9-69
-31-->/home/keith/AndroidStudioProjects/Rectangle/app/src/main/AndroidManifest.xml:14:19-66
+31-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:14:9-69
+31-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:14:19-66
 32            </intent-filter>
 33        </activity>
 34

@@ -12,4 +12,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/keith/AndroidStudioProjects/Rectangle/app/.cxx/Debug/6t1f0213/arm64-v8a
+-- Build files have been written to: /home/keith/AndroidStudioProjects/Polygon/app/.cxx/Debug/6t1f0213/arm64-v8a

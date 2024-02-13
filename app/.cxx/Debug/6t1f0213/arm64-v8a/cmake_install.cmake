@@ -1,4 +1,4 @@
-# Install script for directory: /home/keith/AndroidStudioProjects/Rectangle/app/src/main/cpp
+# Install script for directory: /home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/keith/AndroidStudioProjects/Rectangle/app/.cxx/Debug/6t1f0213/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/keith/AndroidStudioProjects/Polygon/app/.cxx/Debug/6t1f0213/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

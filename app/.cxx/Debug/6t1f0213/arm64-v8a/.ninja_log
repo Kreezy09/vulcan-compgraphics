@@ -1,25 +1,3 @@
 # ninja log v5
-0	1831	1707831941493374272	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1832	1873	1707831941545374379	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-0	1391	1707832154230592998	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1391	1432	1707832154278593376	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-1	1349	1707832408295251150	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1349	1387	1707832408343250986	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-1	1416	1707832486383098519	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1416	1454	1707832486431098489	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-1	1353	1707832688367461635	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1353	1393	1707832688419461825	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-1	1441	1707833183666258673	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1441	1480	1707833183714258993	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-1	2150	1707844520137790830	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-2150	2431	1707844520437790831	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-1	1679	1707844634021791471	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1679	1743	1707844634097791472	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-1	1667	1707844763029792198	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1667	1729	1707844763101792198	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-3	1757	1707844925505793113	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1758	1815	1707844925577793113	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-2	1821	1707844942429793208	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1821	1891	1707844942513793209	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
-2	1717	1707845029509793699	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	9e80633d280e0212
-1717	1780	1707845029581793699	/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	57f99d8510a01c17
+0	1566	1707854243707302126	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	4a19d40e98a8bfc9
+1567	1605	1707854243751301959	/home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	22b31730e4a4bcc2

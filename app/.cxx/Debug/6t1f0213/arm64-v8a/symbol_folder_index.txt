@@ -1,1 +1,1 @@
-/home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a
+/home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a

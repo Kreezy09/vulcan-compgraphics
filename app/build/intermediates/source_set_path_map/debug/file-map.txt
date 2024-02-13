@@ -14,10 +14,10 @@ com.android.hellovk.app-lifecycle-livedata-core-2.5.1-12 /home/keith/.gradle/cac
 com.android.hellovk.app-core-1.10.1-13 /home/keith/.gradle/caches/transforms-3/d001c43b87f49a29f46bbdd20bd4ce3a/transformed/core-1.10.1/res
 com.android.hellovk.app-jetified-savedstate-1.2.0-14 /home/keith/.gradle/caches/transforms-3/ef8de89557436b9645562f3a15eb46e5/transformed/jetified-savedstate-1.2.0/res
 com.android.hellovk.app-jetified-annotation-experimental-1.3.0-15 /home/keith/.gradle/caches/transforms-3/f39bb6d44aab5043fc45a72142b7eae8/transformed/jetified-annotation-experimental-1.3.0/res
-com.android.hellovk.app-pngs-16 /home/keith/AndroidStudioProjects/Rectangle/app/build/generated/res/pngs/debug
-com.android.hellovk.app-resValues-17 /home/keith/AndroidStudioProjects/Rectangle/app/build/generated/res/resValues/debug
-com.android.hellovk.app-mergeDebugResources-18 /home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-com.android.hellovk.app-mergeDebugResources-19 /home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-com.android.hellovk.app-merged_res-20 /home/keith/AndroidStudioProjects/Rectangle/app/build/intermediates/merged_res/debug
-com.android.hellovk.app-debug-21 /home/keith/AndroidStudioProjects/Rectangle/app/src/debug/res
-com.android.hellovk.app-main-22 /home/keith/AndroidStudioProjects/Rectangle/app/src/main/res
+com.android.hellovk.app-pngs-16 /home/keith/AndroidStudioProjects/Polygon/app/build/generated/res/pngs/debug
+com.android.hellovk.app-resValues-17 /home/keith/AndroidStudioProjects/Polygon/app/build/generated/res/resValues/debug
+com.android.hellovk.app-mergeDebugResources-18 /home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.android.hellovk.app-mergeDebugResources-19 /home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.android.hellovk.app-merged_res-20 /home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/merged_res/debug
+com.android.hellovk.app-debug-21 /home/keith/AndroidStudioProjects/Polygon/app/src/debug/res
+com.android.hellovk.app-main-22 /home/keith/AndroidStudioProjects/Polygon/app/src/main/res

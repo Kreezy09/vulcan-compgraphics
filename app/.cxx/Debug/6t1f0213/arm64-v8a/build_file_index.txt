@@ -1,1 +1,1 @@
-/home/keith/AndroidStudioProjects/Rectangle/app/src/main/cpp/CMakeLists.txt
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/CMakeLists.txt
