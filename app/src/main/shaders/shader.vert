@@ -6,11 +6,12 @@ layout(binding = 0) uniform UniformBufferObject {
     mat4 MVP;
 } ubo;
 
-vec2 positions[12] = vec2[](
+vec2 positions[13] = vec2[](
     vec2(-1.0, 0.0), // X-axis start
     vec2(1.0, 0.0),  // X-axis end
     vec2(0.0, -1.0), // Y-axis start
     vec2(0.0, 1.0),  // Y-axis end
+    vec2(-0.3, -0.4),
     vec2(-0.2, -0.3),
     vec2(-0.1, -0.3),
     vec2(0.0, -0.2),

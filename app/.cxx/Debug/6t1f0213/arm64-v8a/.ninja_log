@@ -1,3 +1,3 @@
 # ninja log v5
-0	5869	1707903811728097982	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	4a19d40e98a8bfc9
-5872	6043	1707903811936161825	/home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	22b31730e4a4bcc2
+0	1568	1707910009288208015	CMakeFiles/hellovkjni.dir/vk_main.cpp.o	4a19d40e98a8bfc9
+1569	1623	1707910009348208362	/home/keith/AndroidStudioProjects/Polygon/app/build/intermediates/cxx/Debug/6t1f0213/obj/arm64-v8a/libhellovkjni.so	22b31730e4a4bcc2

@@ -593,7 +593,7 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
 
   vkCmdDraw(commandBuffer, 2, 1, 0, 0);
   vkCmdDraw(commandBuffer, 2, 1, 2, 0);
-  vkCmdDraw(commandBuffer, 8, 1, 4, 0);
+  vkCmdDraw(commandBuffer, 9, 1, 4, 0);
   vkCmdEndRenderPass(commandBuffer);
   VK_CHECK(vkEndCommandBuffer(commandBuffer));
 }
