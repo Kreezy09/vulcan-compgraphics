@@ -23,7 +23,7 @@
 
 #include <iostream>
 
-#include "hellovk.h"
+#include "rectangle.h"
 
 /*
  * Shared state for the app. This will be accessed within lifecycle callbacks
