@@ -11,15 +11,17 @@ layout(binding = 0) uniform UniformBufferObject {
 } ubo;
 
 vec2 positions[6] = vec2[](
+    //first triangle
     vec2(0.5, 0.4),
     vec2(0.8, 0.1),
     vec2(0.8, 0.4),
+    //second triangle
     vec2(0.5, 0.1),
     vec2(0.8, 0.1),
     vec2(0.5, 0.4)
 );
 
-
+//yellow color
 vec3 colors[6] = vec3[](
     vec3(1.0, 1.0, 0.0),
     vec3(1.0, 1.0, 0.0),

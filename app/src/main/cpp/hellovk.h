@@ -579,7 +579,7 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
   if (grey > 1.0f) {
     grey = 0.0f;
   }
-  VkClearValue clearColor = {{{grey, grey, grey, 1.0f}}};
+    VkClearValue clearColor = {{{0.0f, 0.0f, 0.0f, 1.0f}}}; //sets the background on phone to black
 
   renderPassInfo.clearValueCount = 1;
   renderPassInfo.pClearValues = &clearColor;
@@ -591,7 +591,7 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
                           pipelineLayout, 0, 1, &descriptorSets[currentFrame],
                           0, nullptr);
 
-  vkCmdDraw(commandBuffer, 6, 1, 0, 0);
+  vkCmdDraw(commandBuffer, 6, 1, 0, 0); //draws the line
   vkCmdEndRenderPass(commandBuffer);
   VK_CHECK(vkEndCommandBuffer(commandBuffer));
 }
