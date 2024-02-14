@@ -15,5 +15,5 @@
   --ndk-version \
   25 \
   --output \
-  /tmp/agp-prefab-staging10428499701712146730/staged-cli-output \
+  /tmp/agp-prefab-staging5327881880667232259/staged-cli-output \
   /home/keith/.gradle/caches/transforms-3/c68d7737bd65d165a05d189be0b05b14/transformed/jetified-games-activity-2.1.0-alpha01/prefab
