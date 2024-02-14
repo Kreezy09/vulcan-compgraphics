@@ -25,8 +25,8 @@
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
 19-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:5:7-41
-20        android:label="@string/hellovk_activity"
-20-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:6:7-47
+20        android:label="DDA line"
+20-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:6:7-31
 21        android:testOnly="true" >
 22        <activity
 22-->/home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:7:5-16:16

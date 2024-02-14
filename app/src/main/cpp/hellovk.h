@@ -579,7 +579,7 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
   if (grey > 1.0f) {
     grey = 0.0f;
   }
-  VkClearValue clearColor = {{{grey, grey, grey, 1.0f}}};
+  VkClearValue clearColor = {{{1.0f, 1.0f, 1.0f, 1.0f}}}; //make the screen background to white
 
   renderPassInfo.clearValueCount = 1;
   renderPassInfo.pClearValues = &clearColor;
@@ -591,9 +591,10 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
                           pipelineLayout, 0, 1, &descriptorSets[currentFrame],
                           0, nullptr);
 
-  vkCmdDraw(commandBuffer, 2, 1, 0, 0);
-  vkCmdDraw(commandBuffer, 2, 1, 2, 0);
-  vkCmdDraw(commandBuffer, 9, 1, 4, 0);
+  //Function for drawing line
+  vkCmdDraw(commandBuffer, 2, 1, 0, 0); //draws the x axis line
+  vkCmdDraw(commandBuffer, 2, 1, 2, 0); //draws y axis
+  vkCmdDraw(commandBuffer, 9, 1, 4, 0); //draws the line
   vkCmdEndRenderPass(commandBuffer);
   VK_CHECK(vkEndCommandBuffer(commandBuffer));
 }

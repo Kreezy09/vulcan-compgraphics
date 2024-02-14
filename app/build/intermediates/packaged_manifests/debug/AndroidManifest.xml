@@ -17,7 +17,7 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/hellovk_activity"
+        android:label="DDA line"
         android:testOnly="true" >
         <activity
             android:name="com.android.hellovk.VulkanActivity"
