@@ -1,2 +1,80 @@
 ninja: Entering directory `/home/keith/AndroidStudioProjects/Polygon/app/.cxx/Debug/6t1f0213/x86_64'
-ninja: no work to do.
+[1/2] Building CXX object CMakeFiles/hellovkjni.dir/vk_main.cpp.o
+FAILED: CMakeFiles/hellovkjni.dir/vk_main.cpp.o 
+/home/keith/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android28 --sysroot=/home/keith/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DVK_USE_PLATFORM_ANDROID_KHR=1 -Dhellovkjni_EXPORTS -I/usr/include/glm/glm.hpp -isystem /home/keith/.gradle/caches/transforms-3/c68d7737bd65d165a05d189be0b05b14/transformed/jetified-games-activity-2.1.0-alpha01/prefab/modules/game-activity_static/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++17 -Wall -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/hellovkjni.dir/vk_main.cpp.o -MF CMakeFiles/hellovkjni.dir/vk_main.cpp.o.d -o CMakeFiles/hellovkjni.dir/vk_main.cpp.o -c /home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/vk_main.cpp
+In file included from /home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/vk_main.cpp:10:
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:287:9: error: unknown type name 'vkDeviceWaitIdle'; did you mean 'PFN_vkDeviceWaitIdle'?
+        vkDeviceWaitIdle(device);
+        ^~~~~~~~~~~~~~~~
+        PFN_vkDeviceWaitIdle
+/home/keith/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/vulkan/vulkan_core.h:3694:30: note: 'PFN_vkDeviceWaitIdle' declared here
+typedef VkResult (VKAPI_PTR *PFN_vkDeviceWaitIdle)(VkDevice device);
+                             ^
+In file included from /home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/vk_main.cpp:10:
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:287:26: error: duplicate member 'device'
+        vkDeviceWaitIdle(device);
+                         ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:158:14: note: previous declaration is here
+    VkDevice device;
+             ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:289:9: error: C++ requires a type specifier for all declarations
+        cleanupSwapChain();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:291:9: error: C++ requires a type specifier for all declarations
+        createSwapChain();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:292:9: error: C++ requires a type specifier for all declarations
+        createImageViews();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:293:9: error: C++ requires a type specifier for all declarations
+        createFramebuffers();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:144:9: error: use of undeclared identifier 'initWindow'
+        initWindow();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:206:9: error: use of undeclared identifier 'createInstance'
+        createInstance();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:207:9: error: use of undeclared identifier 'setupDebugMessenger'
+        setupDebugMessenger();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:208:9: error: use of undeclared identifier 'createSurface'
+        createSurface();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:209:9: error: use of undeclared identifier 'pickPhysicalDevice'; did you mean 'VkPhysicalDevice'?
+        pickPhysicalDevice();
+        ^
+/home/keith/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/vulkan/vulkan_core.h:101:18: note: 'VkPhysicalDevice' declared here
+VK_DEFINE_HANDLE(VkPhysicalDevice)
+                 ^
+/home/keith/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/vulkan/vulkan_core.h:25:61: note: expanded from macro 'VK_DEFINE_HANDLE'
+#define VK_DEFINE_HANDLE(object) typedef struct object##_T* object;
+                                                            ^
+In file included from /home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/vk_main.cpp:10:
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:210:9: error: use of undeclared identifier 'createLogicalDevice'
+        createLogicalDevice();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:213:9: error: use of undeclared identifier 'createRenderPass'
+        createRenderPass();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:214:9: error: use of undeclared identifier 'createGraphicsPipeline'
+        createGraphicsPipeline();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:216:9: error: use of undeclared identifier 'createCommandPool'
+        createCommandPool();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:217:9: error: use of undeclared identifier 'createVertexBuffer'
+        createVertexBuffer();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:218:9: error: use of undeclared identifier 'createIndexBuffer'
+        createIndexBuffer();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:219:9: error: use of undeclared identifier 'createCommandBuffers'
+        createCommandBuffers();
+        ^
+/home/keith/AndroidStudioProjects/Polygon/app/src/main/cpp/hellovk.h:220:9: error: use of undeclared identifier 'createSyncObjects'
+        createSyncObjects();
+        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.

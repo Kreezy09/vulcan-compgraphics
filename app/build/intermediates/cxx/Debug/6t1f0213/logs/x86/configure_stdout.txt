@@ -1,0 +1,2 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/keith/AndroidStudioProjects/Polygon/app/.cxx/Debug/6t1f0213/x86/CMakeFiles/CMakeOutput.log".
