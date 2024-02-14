@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-#include "hellovk.h"
+#include "ddaline.h"
 
 struct VulkanEngine {
   struct android_app *app;
