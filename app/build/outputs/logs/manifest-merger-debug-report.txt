@@ -53,7 +53,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/keith/.gradle/caches/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] /home/keith/.gradle/caches/transforms-3/d001c43b87f49a29f46bbdd20bd4ce3a/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:6:7-47
+		ADDED from /home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:6:7-30
 	android:icon
 		ADDED from /home/keith/AndroidStudioProjects/Polygon/app/src/main/AndroidManifest.xml:5:7-41
 activity#com.android.hellovk.VulkanActivity
